@@ -41,6 +41,8 @@ namespace MigracaoDeDados
                 var folders = new List<string>(Directory.GetDirectories(pathExtract));
                 var readService = new ReadService();
                 readService.ReadAll(folders);
+
+                Console.WriteLine("Sucesso na inserção");
                 Console.WriteLine($"Tempo passado: {stopwatch.ElapsedTicks/TimeSpan.TicksPerSecond}");
                 stopwatch.Stop();
             }
@@ -50,7 +52,9 @@ namespace MigracaoDeDados
             }
 
             Directory.Delete(pathDownload, true);
-            Directory.Delete(pathExtract, true);           
+            Directory.Delete(pathExtract, true);
+
+            Console.ReadLine();
         }
     }
 }

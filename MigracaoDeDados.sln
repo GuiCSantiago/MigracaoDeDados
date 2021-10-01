@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migracao", "Migracao", "{2D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIretorno", "APIretorno", "{53BAC71B-7F80-4876-A5C1-61F67987F52D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-AcessoDeDados", "API-AcessoDeDados\API-AcessoDeDados.csproj", "{7C794AFC-AA8F-4E2D-8471-90E13D834C74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{E6ABFFFC-5025-478B-960C-FADF49EFFCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6ABFFFC-5025-478B-960C-FADF49EFFCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6ABFFFC-5025-478B-960C-FADF49EFFCE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C794AFC-AA8F-4E2D-8471-90E13D834C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C794AFC-AA8F-4E2D-8471-90E13D834C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C794AFC-AA8F-4E2D-8471-90E13D834C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C794AFC-AA8F-4E2D-8471-90E13D834C74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E6ABFFFC-5025-478B-960C-FADF49EFFCE3} = {2D6C1A96-4C19-49DC-83AA-EB95DA821F6D}
+		{7C794AFC-AA8F-4E2D-8471-90E13D834C74} = {53BAC71B-7F80-4876-A5C1-61F67987F52D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A54E835F-6E2E-4E4B-AECF-F41B735288B5}

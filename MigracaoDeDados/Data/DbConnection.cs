@@ -50,15 +50,5 @@ namespace MigracaoDeDados.Data
             if (inconsistencias.Any())
                 collectionInconsistencia.InsertMany(inconsistencias);
         }
-
-        public void UpdateSocio()
-        {
-            //
-        }
-
-        public void UpdateInconsistencia()
-        {
-            //
-        }
     }
 }
