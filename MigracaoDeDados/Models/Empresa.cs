@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace MigracaoDeDados.Models
 {
-    class Empresa
+    public class Empresa
     {
-        public string Id { get; set; }
-
         public string Cnpj { get; set; }
 
         public string RazaoSocial { get; set; }
@@ -25,7 +23,5 @@ namespace MigracaoDeDados.Models
         public DateTime DataSituacaoCadastral { get; set; }
 
         public string Cep { get; set; }
-
-        public List<Socio> ListaSocios { get; set; } = new List<Socio>();
     }
 }

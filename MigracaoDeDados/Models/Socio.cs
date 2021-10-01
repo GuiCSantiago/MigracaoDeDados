@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace MigracaoDeDados.Models
 {
-    class Socio
+    public class Socio
     {
+        public string CnpjEmpresa { get; set; }
+
         public string RazaoNomeSocial { get; set; }
 
         public string IdentificadorSocio { get; set; }

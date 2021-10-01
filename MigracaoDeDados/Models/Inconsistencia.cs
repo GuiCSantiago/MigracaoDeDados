@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace MigracaoDeDados.Models
 {
-    class Inconsistencia
+    public class Inconsistencia
     {
-        public string line { get; set; }
+        public string Line { get; set; }
     }
 }
